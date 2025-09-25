@@ -3,3 +3,26 @@ body{
     font-size:50px;
     font-family:'Times New Roman', Times, serif;
 }
+
+p{
+    color:red;
+}
+
+@media screen and (max-width:500px){
+    p{
+        color:black;
+    }
+}
+
+@media screen and (min-aspect-ratio:16/9){
+    p{
+        font-size:100px;
+    }
+}
+
+@media screen and (max-width:500px) and (min-aspect-ratio:5/10) and (orientation: portrait){
+    
+    html{
+        background-color: blue;
+    }
+}
